@@ -10,6 +10,13 @@
     height: 13.5rem;
     padding: .5rem;
   }
+  #buy-wrapper > div{
+    height: 150px;
+   }
+  .buyImage {
+    max-height: 20vw;
+    min-height:100px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body {
@@ -22,6 +29,13 @@
     width: 24rem;
     height: 13.5rem;
     padding: .5rem;
+  }
+  #buy-wrapper > div{
+    height: 175px;
+   }
+  .buyImage {
+    max-height: 20vw;
+    min-height:200px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -36,6 +50,13 @@
     height: 13.5rem;
     padding: .5rem;
   }
+  #buy-wrapper > div{
+    height: 200px;
+   }
+  .buyImage {
+    max-height: 20vw;
+    min-height:250px;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -48,6 +69,13 @@
     width: 32rem;
     height: 18rem;
     padding: 1rem;
+  }
+  #buy-wrapper > div{
+    height: 300px;
+   }
+  .buyImage {
+    max-height: 15vw;
+    min-height:260px;
   }
 }
 body {
@@ -123,9 +151,29 @@ nav ul{
 #video-wrapper {
   display: flex;
 }
+#form {
+  background-color: rgb(29, 23, 23);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d4d0db;
+  width: 50vw;
+  margin: 1rem auto;
+  border-radius: 12px;
+  padding: 1rem;
+}
 .video {
   border: 0;
 }
+.buyBtn {
+  display: block;
+  margin: 0 auto;
+}
+.buy-cube-wrapper {
+  display: inline-block;
+}
+#buy-wrapper > div{
+  width: 33%;
+ }
 h1 {
   font-family: 'Righteous', cursive;
   font-size: 10rem;
@@ -135,4 +183,8 @@ h1 {
 }
 h2 {
   font-family: 'Permanent Marker', cursive;
+}
+#guides {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
