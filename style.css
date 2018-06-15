@@ -4,18 +4,18 @@
   }
   #landing-image-wrapper {
     margin-top: 2em;
-    }
+  }
   .video {
     width: 24rem;
     height: 13.5rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
-  #buy-wrapper > div{
+  #buy-wrapper > div {
     height: 150px;
-   }
+  }
   .buyImage {
     max-height: 20vw;
-    min-height:100px;
+    min-height: 100px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -24,18 +24,18 @@
   }
   #landing-image-wrapper {
     margin-top: 3em;
-    }
+  }
   .video {
     width: 24rem;
     height: 13.5rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
-  #buy-wrapper > div{
+  #buy-wrapper > div {
     height: 175px;
-   }
+  }
   .buyImage {
     max-height: 20vw;
-    min-height:200px;
+    min-height: 200px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -44,18 +44,18 @@
   }
   #landing-image-wrapper {
     margin-top: 4em;
-    }
+  }
   .video {
     width: 24rem;
     height: 13.5rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
-  #buy-wrapper > div{
+  #buy-wrapper > div {
     height: 200px;
-   }
+  }
   .buyImage {
     max-height: 20vw;
-    min-height:250px;
+    min-height: 250px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -64,24 +64,24 @@
   }
   #landing-image-wrapper {
     margin-top: 5em;
-    }
+  }
   .video {
     width: 32rem;
     height: 18rem;
     padding: 1rem;
   }
-  #buy-wrapper > div{
+  #buy-wrapper > div {
     height: 300px;
-   }
+  }
   .buyImage {
     max-height: 15vw;
-    min-height:260px;
+    min-height: 260px;
   }
 }
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: "Yantramanav", sans-serif;
   color: #d4d0db;
 }
 nav {
@@ -99,18 +99,18 @@ nav a {
   text-align: center;
   padding: 12px 12px;
   text-decoration: none;
-  display:inline-block;
+  display: inline-block;
 }
 nav a:hover {
   color: rgb(255, 255, 255);
 }
-nav ul{
-    list-style: none;
-    margin: 0 2px;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-  }
+nav ul {
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
 #header-img {
   max-width: 5rem;
   padding-top: 1.3rem;
@@ -118,7 +118,7 @@ nav ul{
 }
 #landing-img {
   width: 35rem;
-  transition: all .3s;
+  transition: all 0.3s;
   transition-timing-function: cubic-bezier(0.1, 1, 0.58, 1);
 }
 #logo-wrapper {
@@ -148,6 +148,9 @@ nav ul{
   margin: 0 4vw 0 4vw;
   border-radius: 12px;
 }
+.section-description {
+  padding-bottom: 20px;
+}
 #video-wrapper {
   display: flex;
 }
@@ -168,21 +171,31 @@ nav ul{
   display: block;
   margin: 0 auto;
 }
-.buy-cube-wrapper {
+.buy-cube-wrapper,
+.buy-acc-wrapper {
   display: inline-block;
 }
-#buy-wrapper > div{
+.buyName {
+  padding: 20px 0 20px 0;
+}
+#buy-wrapper > div {
   width: 33%;
- }
+}
+#accessory-wrapper > div {
+  width: 33%;
+}
+#accessory-wrapper {
+  display: flex;
+}
 h1 {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   font-size: 10rem;
   color: rgb(29, 23, 23);
   line-height: 0;
   text-transform: uppercase;
 }
 h2 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 #guides {
   padding-bottom: 40px;
