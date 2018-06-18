@@ -35,48 +35,60 @@
       <!--Uplaod image and update URL-->
     </div>
   </header>
-  <div id='landing-image-wrapper'>
-    <img id='landing-img' src="Images/Cub3r logo color large v2.png" alt="Moyu MF3RS2">
-    <!--Uplaod image and update URL-->
+  <div id='landing-wrapper'></div>
+    <div id='landing-image-wrapper'>
+      <img id='landing-img' src="Images/Cub3r logo color large v2.png" alt="Moyu MF3RS2">
+      <!--Uplaod image and update URL-->
+    </div>
   </div>
   <h1>Cub3r</h1>
   <div id='main-content'>
     <div id='cubes'>
-      <h2>Cubes</h2>
+      <h2 class='first-title'>Cubes</h2>
       <div class='section-description'>Our cubes come in many different sizes. Select one of the options below to see the different models we have in each
         size.</div>
-      <div id='buy-wrapper'>
-        <div id='buy2x2' class='buy-cube-wrapper'>
-          <div class='buyName'>2x2 Cubes</div>
-          <img class='buyImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/qiyi-wuxia.png?1512943247"
-            alt="2x2 cube">
-          <button class='buyBtn btn' type="button">View</button>
+      <div id='flex-wrapper'>
+        <div class='buy-wrapper'>
+          <div id='buy2x2' class='buy-cube-wrapper'>
+            <div class='buyName'>2x2 Cubes</div>
+            <hr class='hr'>
+            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/qiyi-wuxia.png?1512943247"
+              alt="2x2 cube">
+            <button class='buyBtn btn' type="button">View</button>
+          </div>
+          <div id='buy3x3' class='buy-cube-wrapper'>
+            <div class='buyName'>3x3 Cubes</div>
+            <hr class='hr'>
+            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/moyu-gts2.png?1512869816" alt="3x3 cube">
+            <button class='buyBtn btn' type="button">View</button>
+          </div>
+          <div id='buy4x4' class='buy-cube-wrapper'>
+            <div class='buyName'>4x4 Cubes</div>
+            <hr class='hr'>
+            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/kungfu-cangfeng.png?1512868982"
+              alt="4x4 cube">
+            <button class='buyBtn btn' type="button">View</button>
+          </div>
         </div>
-        <div id='buy3x3' class='buy-cube-wrapper'>
-          <div class='buyName'>3x3 Cubes</div>
-          <img class='buyImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/moyu-gts2.png?1512869816" alt="3x3 cube">
-          <button class='buyBtn' type="button">View</button>
-        </div>
-        <div id='buy4x4' class='buy-cube-wrapper'>
-          <div class='buyName'>4x4 Cubes</div>
-          <img class='buyImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/kungfu-cangfeng.png?1512868982"
-            alt="4x4 cube">
-          <button class='buyBtn btn' type="button">View</button>
-        </div>
-        <div id='buy5x5' class='buy-cube-wrapper'>
-          <div class='buyName'>5x5 Cubes</div>
-          <img class='buyImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/moyu-weichuang_orig.png" alt="5x5 cube">
-          <button class='buyBtn btn' type="button">View</button>
-        </div>
-        <div id='buy6x6' class='buy-cube-wrapper'>
-          <div class='buyName'>6x6 Cubes</div>
-          <img class='buyImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/qiyi-wuhua-v2_orig.png" alt="6x6 cube">
-          <button class='buyBtn btn' type="button">View</button>
-        </div>
-        <div id='buy7x7' class='buy-cube-wrapper'>
-          <div class='buyName'>7x7 Cubes</div>
-          <img class='buyImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/8524953.png" alt="7x7 cube">
-          <button class='buyBtn btn' type="button">View</button>
+        <div class='buy-wrapper'>
+          <div id='buy5x5' class='buy-cube-wrapper'>
+            <div class='buyName'>5x5 Cubes</div>
+            <hr class='hr'>
+            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/moyu-weichuang_orig.png" alt="5x5 cube">
+            <button class='buyBtn btn' type="button">View</button>
+          </div>
+          <div id='buy6x6' class='buy-cube-wrapper'>
+            <div class='buyName'>6x6 Cubes</div>
+            <hr class='hr'>
+            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/qiyi-wuhua-v2_orig.png" alt="6x6 cube">
+            <button class='buyBtn btn' type="button">View</button>
+          </div>
+          <div id='buy7x7' class='buy-cube-wrapper'>
+            <div class='buyName'>7x7 Cubes</div>
+            <hr class='hr'>
+            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/8524953.png" alt="7x7 cube">
+            <button class='buyBtn btn' type="button">View</button>
+          </div>
         </div>
       </div>
       <form id='form' action="https://www.freecodecamp.com/email-submit">
@@ -92,18 +104,21 @@
       <div id='accessory-wrapper'>
         <div id='buyPartsAndLube' class='buy-acc-wrapper'>
           <div class='buyName'>Parts and Lube</div>
-          <img class='buyImage' src="https://cdn.shopify.com/s/files/1/1157/8874/products/Maru_Lube_18d9c928-ed02-431d-8d13-8dc8ddb024fb_x700.png?v=1520577886"
+          <hr class='hr'>
+          <img class='buyImage accImage' src="https://cdn.shopify.com/s/files/1/1157/8874/products/Maru_Lube_18d9c928-ed02-431d-8d13-8dc8ddb024fb_x700.png?v=1520577886"
             alt="lube bottle">
           <button class='buyBtn btn' type="button">View</button>
         </div>
         <div id='buyStickers' class='buy-acc-wrapper'>
           <div class='buyName'>Stickers</div>
-          <img class='buyImage' src="https://www.puzzlemaster.ca/imagecache/products/alpha/640x640/007/007146.png" alt="stickers">
+          <hr class='hr'>
+          <img class='buyImage accImage' src="https://www.puzzlemaster.ca/imagecache/products/alpha/640x640/007/007146.png" alt="stickers">
           <button class='buyBtn btn' type="button">View</button>
         </div>
         <div id='buyApparel' class='buy-acc-wrapper'>
           <div class='buyName'>Apparel</div>
-          <img class='buyImage' src="https://image.spreadshirtmedia.com/image-server/v1/products/1014121872/views/1,width=650,height=650,appearanceId=231,version=1481295330/you-love-retro-stuff-then-youll-surely-recoginse-this-iconic-puzzle-game-of-the-eighties-the-design-of-the-magic-cube-has-a-used-look-so-the-vintage-flair-is-fully-displayed.png"
+          <hr class='hr'>
+          <img class='buyImage accImage' src="https://image.spreadshirtmedia.com/image-server/v1/products/1014121872/views/1,width=650,height=650,appearanceId=231,version=1481295330/you-love-retro-stuff-then-youll-surely-recoginse-this-iconic-puzzle-game-of-the-eighties-the-design-of-the-magic-cube-has-a-used-look-so-the-vintage-flair-is-fully-displayed.png"
             alt="sweat shirt">
           <button class='buyBtn btn' type="button">View</button>
         </div>
