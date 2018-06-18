@@ -13,7 +13,7 @@
 
 <body>
   <header id='header'>
-    <nav class='nav'>
+    <nav id='nav-bar' class='nav'>
       <ul>
         <li>
           <a class="nav-link" href="#cubes">Cubes</a>
@@ -31,22 +31,21 @@
     </nav>
     <div id='logo-wrapper-border'></div>
     <div id='logo-wrapper'>
-      <img id='header-img' src="Images/cub3r logo small white.png" alt="Cub3r Logo">
-      <!--Uplaod image and update URL-->
+      <img id='header-img' src="https://s3.us-east-2.amazonaws.com/rubiks.cube.product.page/cub3r+logo+small+white.png" alt="Cub3r Logo">
     </div>
   </header>
   <div id='landing-wrapper'></div>
-    <div id='landing-image-wrapper'>
-      <img id='landing-img' src="Images/Cub3r logo color large v2.png" alt="Moyu MF3RS2">
-      <!--Uplaod image and update URL-->
-    </div>
+  <div id='landing-image-wrapper'>
+    <img id='landing-img' src="https://s3.us-east-2.amazonaws.com/rubiks.cube.product.page/Cub3r+logo+color+large+v2.png" alt="Moyu MF3RS2">
+  </div>
   </div>
   <h1>Cub3r</h1>
   <div id='main-content'>
     <div id='cubes'>
       <h2 class='first-title'>Cubes</h2>
       <div class='section-description'>Our cubes come in many different sizes. Select one of the options below to see the different models we have in each
-        size.</div>
+        size.
+      </div>
       <div id='flex-wrapper'>
         <div class='buy-wrapper'>
           <div id='buy2x2' class='buy-cube-wrapper'>
@@ -59,7 +58,8 @@
           <div id='buy3x3' class='buy-cube-wrapper'>
             <div class='buyName'>3x3 Cubes</div>
             <hr class='hr'>
-            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/moyu-gts2.png?1512869816" alt="3x3 cube">
+            <img class='buyImage cubeImage' src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/moyu-gts2.png?1512869816"
+              alt="3x3 cube">
             <button class='buyBtn btn' type="button">View</button>
           </div>
           <div id='buy4x4' class='buy-cube-wrapper'>
@@ -94,7 +94,7 @@
       <form id='form' action="https://www.freecodecamp.com/email-submit">
         <div>If you would like to be alerted when new cubes are released please sign up for our mailing list below.</div>
         <input id='email' class='text-form' type="email" name="email" placeholder="Enter your email">
-        <input class='subBtn btn' type="submit" value="Submit">
+        <input id='submit' class='subBtn btn' type="submit" value="Submit">
       </form>
     </div>
     <div id='accessories'>
